@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-card {
+  background: #ffffffdd;
+  backdrop-filter: blur(15px);
+  max-width: 360px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  animation: fadeIn .4s ease;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  opacity: .7;
+  margin-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.input {
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: .2s;
+}
+
+.input:focus {
+  border-color: #6b4bff;
+  box-shadow: 0 0 0 2px #6b4bff33;
+}
+
+.btn {
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .2s;
+}
+
+.primary-btn {
+  background: #6b4bff;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #583dcc;
+}
+
+.logout-btn {
+  background: #ff5f5f;
+  color: white;
+}
+
+.logout-btn:hover {
+  background: #e34a4a;
+}
+
+.switch-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.switch-text span {
+  color: #6b4bff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.fadeIn {
+  animation: fadeIn 0.4s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
