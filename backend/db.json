@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "xDA61AvLOxLXq2ZEJ7az6",
+      "username": "prash",
+      "email": "ravinarayanp@gmail.com",
+      "passwordHash": "$2b$08$2QXPyTBy3hbp/fdsZeSlfuOvFYJzFZ3j/3DAoxHgkixfDTsieByWK"
+    },
+    {
+      "id": "6pMrIIgd4twHXXrRYEU8b",
+      "username": "prash",
+      "email": "1234@gmail.com",
+      "passwordHash": "$2b$08$aJaHT6ryN1mMixOTymhfpOA5IXXaGeyrI1SE3/lA32QQu9TBGJuyC"
+    }
+  ]
+}
